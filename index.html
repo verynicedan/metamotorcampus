@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MetaMotor Campus</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap"
@@ -73,7 +74,7 @@
                     <div class="col-lg-6 col-md-5">
                         <div class="header__top__right">
                             <div class="header__top__links">
-                                <a href="#">Sign in</a>
+                                <a href="login.html">Sign in</a>
                                 <a href="#">FAQs</a>
                             </div>
                             <div class="header__top__hover">
@@ -92,38 +93,20 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-3">
-                    <div class="header__logo">
-                        <a href="./index.html"><p>MetaMotor Campus</p></a>
+                    <div class="">
+                        <img src="img/meta-logo.jpg" alt="MetaMotor Campus Logo" class="w-20 h-20">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <nav class="header__menu mobile-menu">
                         <ul>
                             <li class="active"><a href="./index.html">Home</a></li>
-                            <li><a href="#">Shop</a></li>
-                            <li><a href="#">Pages</a>
-                                <!-- <ul class="dropdown">
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Shop Details</a></li>
-                                    <li><a href="#">Shopping Cart</a></li>
-                                    <li><a href="#">Check Out</a></li>
-                                    <li><a href="#">Blog Details</a></li>
-                                </ul>
-                            </li> -->
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contacts</a></li>
+                            
+                            <li><a href="#footer">Contacts</a></li>
                         </ul>
                     </nav>
                 </div>
-                <div class="col-lg-3 col-md-3">
-                    <div class="header__nav__option">
-                        <!-- <a href="#" class="search-switch"><img src="img/icon/search.png" alt=""></a> -->
-                        <!-- <a href="#"><img src="img/icon/heart.png" alt=""></a> -->
-                        <!-- <a href="#"><img src="img/icon/cart.png" alt=""> <span>0</span></a> -->
-                        <a href="#"><img src="img/profile-icon.png" alt="" class="profile-img"></a>
-                        <!-- <div class="price">RM0.00</div> -->
-                    </div>
-                </div>
+                
             </div>
             <div class="canvas__open"><i class="fa fa-bars"></i></div>
         </div>
@@ -131,275 +114,231 @@
     <!-- Header Section End -->
 
     <!-- Hero Section Begin -->
-    <section class="hero">
-        <div class="hero__slider owl-carousel">
-            <div class="hero__items set-bg" data-setbg="img/hero/hero-1.jpg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-5 col-lg-7 col-md-8">
-                            <div class="hero__text">
-                                <h2>Slogan</h2>
-                                <p>Malaysia's first fully VR-based automotive training campus</p>
-                                <a href="#" class="primary-btn">Try Free VR Session <span class="arrow_right"></span></a>
-                                <br><br>
-                                <a href="#" class="primary-btn">Explore Courses <span class="arrow_right"></span></a>
-                                <div class="hero__social">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-pinterest"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <section class="bg-white py-20 px-6">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <!-- Left Content -->
+            <div>
+            <h1 class="text-5xl font-extrabold text-gray-900 mb-4">Slogan</h1>
+            <p class="text-lg text-gray-600 mb-6">Malaysia's first fully VR-based automotive training campus</p>
+            <div class="space-y-4">
+                <a href="#" class="inline-block px-6 py-3 bg-black text-white font-semibold rounded hover:bg-gray-800 transition">Try Free VR Session →</a>
+                <br>
+                <a href="about.html" class="inline-block px-6 py-3 bg-black text-white font-semibold rounded hover:bg-gray-800 transition">Explore Courses →</a>
             </div>
-            <!-- <div class="hero__items set-bg" data-setbg="img/hero/hero-2.jpg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-5 col-lg-7 col-md-8">
-                            <div class="hero__text">
-                                <h6>Summer Collection</h6>
-                                <h2>Fall - Winter Collections 2030</h2>
-                                <p>A specialist label creating luxury essentials. Ethically crafted with an unwavering
-                                commitment to exceptional quality.</p>
-                                <a href="#" class="primary-btn">Shop now <span class="arrow_right"></span></a>
-                                <div class="hero__social">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-pinterest"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
+            <div class="flex space-x-4 mt-8 text-gray-500">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            </div>
+
+            <!-- Right Image -->
+            <div>
+            <img src="img/hero-img.jpg" alt="VR Automotive Training Car" class="w-full h-auto rounded-lg shadow-lg" />
+            </div>
         </div>
     </section>
+
     <!-- Hero Section End -->
 
     <!--About Us Start-->
-    <section class="py-5 bg-light">
-        <div class="container">
-            <!-- Title Block -->
-            <div class="section-title">
-                <h2>Why MetaMotor Campus?</h2>
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6">
+            
+            <!-- Title -->
+            <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-gray-800">Why MetaMotor Campus?</h2>
             </div>
 
-            <!-- Content Row -->
-            <div class="row g-4 mt-5">
-                <!-- Left Column -->
-                <div class="col-md-6 text-start">
-                    <h3>Unique Selling Point</h3>
-                    <ul>
-                        <li>No headset sales or external access to protect IP and exclusivity.</li>
-                        <li>Customized data collection – we build and upload all simulation data with the help of automotive experts and instructional designers.</li>
-                        <li>Content is continuously updated to reflect latest technologies and repair techniques.</li>
-                        <li>
-                            Employer & Industry Partnerships: Partner with local workshops, dealerships, and automotive chains for:
-                            <ul class="ps-4">
-                                <li>On-the-job placements</li>
-                                <li>Custom training for workshop staff</li>
-                                <li>Direct talent pipeline from your center</li>
-                            </ul>
-                        </li>
-                        <li>Supports green mobility training (EV, hybrid modules)</li>
-                        <li>Promotes reskilling and upskilling (SDG 4: Quality Education)</li>
-                        <li>Real-time shadowing of global experts, offers live VR link to actual master technicians. Trainees can “enter” their workspace in VR and follow every movement.</li>
-                        <li>AI Coaching – AI mechanic avatar in VR guides users based on their learning progress (tier)</li>
+            <!-- Content Grid -->
+            <div class="grid md:grid-cols-2 gap-12">
+            
+            <!-- Left Column -->
+            <div>
+                <h3 class="text-2xl font-semibold text-yellow-600 mb-4">Unique Selling Point</h3>
+                <ul class="list-disc list-inside text-gray-700 space-y-3">
+                <li>No headset sales or external access to protect IP and exclusivity.</li>
+                <li>Customized data collection – we build and upload all simulation data with the help of automotive experts and instructional designers.</li>
+                <li>Content is continuously updated to reflect latest technologies and repair techniques.</li>
+                <li>
+                    Employer & Industry Partnerships:
+                    <ul class="list-disc list-inside ml-6 mt-2 space-y-2">
+                    <li>On-the-job placements</li>
+                    <li>Custom training for workshop staff</li>
+                    <li>Direct talent pipeline from your center</li>
                     </ul>
-                </div>
+                </li>
+                <li>Supports green mobility training (EV, hybrid modules)</li>
+                <li>Promotes reskilling and upskilling (SDG 4: Quality Education)</li>
+                <li>Real-time shadowing of global experts via VR to follow master technicians in their workspaces.</li>
+                <li>AI Coaching – mechanic avatar that adapts guidance to user skill levels.</li>
+                </ul>
+            </div>
 
-                <!-- Right Column -->
-                <div class="col-md-6 text-start">
-                    <h3>Why It Stands Out?</h3>
-                    <ul>
-                        <li>Safe practice: Learners can work on virtual engines or electrical systems without damaging real parts.</li>
-                        <li>Repeatable scenarios: Train on rare or dangerous car faults as often as needed.</li>
-                        <li>Cost-saving: Reduces need for physical vehicles or tools for every learner.</li>
-                        <li>Realistic environments: Simulates workshop conditions, boosting confidence and job readiness before stepping into the field.</li>
-                    </ul>
-                </div>
+            <!-- Right Column -->
+            <div>
+                <h3 class="text-2xl font-semibold text-yellow-600 mb-4">Why It Stands Out?</h3>
+                <ul class="list-disc list-inside text-gray-700 space-y-3">
+                <li>Safe practice: Work on virtual engines/electrical systems risk-free.</li>
+                <li>Repeatable scenarios: Train on rare or high-risk faults multiple times.</li>
+                <li>Cost-saving: Less reliance on physical vehicles/tools per learner.</li>
+                <li>Realistic environments: Simulated workshops boost confidence before job entry.</li>
+                </ul>
+            </div>
+
             </div>
         </div>
     </section>
+
     <!--About US End-->
 
-    <!--How it Works Start-->
-    <section class="py-5 bg-white">
-        <div class="container">
-            <!-- Title Block -->
-            <div class="section-title">
-                    <h2>How it works</h2>
-                </div>
-
-            <!-- Content Row -->
-            <div class="row g-4 mt-5">
-                <!-- Left Column -->
-                <h3>Unique Selling Point</h3>
-                    <ul>
-                        <li>No headset sales or external access to protect IP and exclusivity.</li>
-                        <li>Customized data collection – we build and upload all simulation data with the help of automotive experts and instructional designers.</li>
-                        <li>Content is continuously updated to reflect latest technologies and repair techniques.</li>
-                        <li>
-                            Employer & Industry Partnerships: Partner with local workshops, dealerships, and automotive chains for:
-                            <ul class="ps-4">
-                                <li>On-the-job placements</li>
-                                <li>Custom training for workshop staff</li>
-                                <li>Direct talent pipeline from your center</li>
-                            </ul>
-                        </li>
-                        <li>Supports green mobility training (EV, hybrid modules)</li>
-                        <li>Promotes reskilling and upskilling (SDG 4: Quality Education)</li>
-                        <li>Real-time shadowing of global experts, offers live VR link to actual master technicians. Trainees can “enter” their workspace in VR and follow every movement.</li>
-                        <li>AI Coaching – AI mechanic avatar in VR guides users based on their learning progress (tier)</li>
-                    </ul>
-
-                <!-- Right Column
-                <div class="col-md-6 text-start">
-                    <h3>Why It Stands Out?</h3>
-                    <ul>
-                        <li>Safe practice: Learners can work on virtual engines or electrical systems without damaging real parts.</li>
-                        <li>Repeatable scenarios: Train on rare or dangerous car faults as often as needed.</li>
-                        <li>Cost-saving: Reduces need for physical vehicles or tools for every learner.</li>
-                        <li>Realistic environments: Simulates workshop conditions, boosting confidence and job readiness before stepping into the field.</li>
-                    </ul>
-                </div> -->
-            </div>
-        </div>
-    </section>
-    <!--How it works End-->
+    
 
 
 
 
     <!-- Banner Section Begin -->
-    <section class="banner spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 offset-lg-4">
-                    <div class="banner__item">
-                        <div class="banner__item__pic">
-                            <img src="img/banner/banner-1.jpg" alt="">
-                        </div>
-                        <div class="banner__item__text">
-                            <h2>Vocational Skills Training</h2>
-                            <a href="#">Explore Courses</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="col-lg-5">
-                    <div class="banner__item banner__item--middle">
-                        <div class="banner__item__pic">
-                            <img src="img/banner/banner-2.jpg" alt="">
-                        </div>
-                        <div class="banner__item__text">
-                            <h2>Accessories</h2>
-                            <a href="#">Explore Courses</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="banner__item banner__item--last">
-                        <div class="banner__item__pic">
-                            <img src="img/banner/banner-3.jpg" alt="">
-                        </div>
-                        <div class="banner__item__text">
-                            <h2>Shoes Spring 2030</h2>
-                            <a href="#">Explore Courses</a>
-                        </div>
-                    </div>
-                </div> -->
+    <section class="py-20 bg-yellow-500 ">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row items-center lg:items-stretch shadow-xl rounded-xl overflow-hidden bg-white">
+
+            <!-- Image -->
+            <div class="lg:w-1/2 w-full">
+                <img src="img/service-img.jpg" alt="Vocational Skills Training" class="w-full h-full object-cover">
+            </div>
+
+            <!-- Text Content -->
+            <div class="lg:w-1/2 w-full p-10 flex flex-col justify-center bg-white">
+                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Vocational Skills Training</h2>
+                <p class="text-lg text-gray-600 mb-6">Upskill with practical, hands-on automotive training that meets industry demands.</p>
+                <a href="about.html"
+                class="inline-block w-max px-6 py-3 bg-yellow-600 text-white text-lg font-semibold rounded-full shadow hover:bg-yellow-700 transition">
+                Explore Courses →
+                </a>
+            </div>
+
             </div>
         </div>
     </section>
     <!-- Banner Section End -->
 
     <!-- Step Begin -->
-    <section class="py-5 bg-light text-center">
-        <div class="container">
+    <section class="py-20 bg-gray-100 text-center">
+        <div class="max-w-6xl mx-auto px-6">
+
             <!-- Title Block -->
-            <div class="mb-4">
-            <h2 class="display-5 fw-semibold" style="font-family: Georgia, serif;">MetaMotor Campus Mission</h2>
-            <p class=" fw-semibold small">Malaysia’s #1 Gateway to Automotive Vocational Excellence.</p>
-            <p class="text-muted">Empowering every Malaysian with industry-led training, certification, and career guidance to drive their future in automotive.</p>
+            <div class="mb-10">
+            <h2 class="text-4xl font-bold text-gray-900" style="font-family: Georgia, serif;">MetaMotor Campus Mission</h2>
+            <p class="text-yellow-600 font-semibold text-sm mt-2">Malaysia’s #1 Gateway to Automotive Vocational Excellence.</p>
+            <p class="text-gray-600 mt-4 max-w-2xl mx-auto">
+                Empowering every Malaysian with industry-led training, certification, and career guidance to drive their future in automotive.
+            </p>
             </div>
 
-            <!-- Icon Row -->
-            <div class="row g-4 justify-content-center mt-5">
-            <div class="col-md-2 col-sm-6">
-                <div>
-                <i class="fas fa-briefcase mb-3" style="font-size: 2rem;"></i>
-                <p>Professional Development</p>
-                </div>
+            <!-- Icon Grid -->
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 mt-10 text-gray-800">
+        
+        <!-- Icon 1 -->
+        <div class="flex flex-col items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-yellow-600 mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2a10 10 0 00-7.07 17.07L12 22l7.07-2.93A10 10 0 0012 2z" />
+            </svg>
+            <p class="text-sm font-medium">Professional Development</p>
+        </div>
+
+        <!-- Icon 2 -->
+        <div class="flex flex-col items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-yellow-600 mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h10M4 18h16" />
+            </svg>
+            <p class="text-sm font-medium">Career Growth</p>
+        </div>
+
+        <!-- Icon 3 -->
+        <div class="flex flex-col items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-yellow-600 mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <circle cx="12" cy="12" r="10" stroke-width="2" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6" />
+            </svg>
+            <p class="text-sm font-medium">Industry-Relevant Skills</p>
+        </div>
+
+        <!-- Icon 4 -->
+        <div class="flex flex-col items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-yellow-600 mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16h8M8 12h8m-8-4h8M4 6h16M4 10h16M4 14h10M4 18h16" />
+            </svg>
+            <p class="text-sm font-medium">Job Placement Assistance</p>
+        </div>
+
+        <!-- Icon 5 -->
+        <div class="flex flex-col items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-yellow-600 mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+            </svg>
+            <p class="text-sm font-medium">Personalized Guidance</p>
+        </div>
+
+        </div>
+
+
+        </div>
+    </section>
+
+
+
+    <!-- Step End -->
+
+
+    <section class="py-20 bg-gradient-to-b from-white to-gray-50 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl font-extrabold text-gray-900 mb-8">Join the Movement</h2>
+
+            <div class="space-y-6 text-lg text-gray-700 mb-10">
+            <div class="flex items-start justify-center gap-3">
+                <span class="text-green-500 text-2xl">✅</span>
+                <span>Whether you're an <strong class="text-gray-900">SPM leaver</strong>, upskilling adult, or EV enthusiast…</span>
             </div>
-            <div class="col-md-2 col-sm-6">
-                <div>
-                <i class="fas fa-briefcase mb-3" style="font-size: 2rem;"></i>
-                <p>Career Growth</p>
-                </div>
+            <div class="flex items-start justify-center gap-3">
+                <span class="text-green-500 text-2xl">✅</span>
+                <span><strong class="text-gray-900">Start for free</strong> — no upfront cost, no risk.</span>
             </div>
-            <div class="col-md-2 col-sm-6">
-                <div>
-                <i class="fas fa-briefcase mb-3" style="font-size: 2rem;"></i>
-                <p>Industry-Relevant Skills</p>
-                </div>
             </div>
-            <div class="col-md-2 col-sm-6">
-                <div>
-                <i class="fas fa-briefcase mb-3" style="font-size: 2rem;"></i>
-                <p>Job Placement Assistance</p>
-                </div>
-            </div>
-            <div class="col-md-2 col-sm-6">
-                <div>
-                <i class="fas fa-briefcase mb-3" style="font-size: 2rem;"></i>
-                <p>Personalized Guidance</p>
-                </div>
-            </div>
+
+            <div class="flex flex-col sm:flex-row justify-center gap-6">
+            <a href="#book-trial"
+                class="px-8 py-3 bg-yellow-500 text-white text-lg font-semibold rounded-full shadow-lg hover:bg-yellow-600 transition">
+                🚀 Book Trial Now
+            </a>
+            <a href="#contact"
+                class="px-8 py-3 border-2 border-yellow-500 text-yellow-600 text-lg font-semibold rounded-full hover:bg-yellow-50 transition">
+                📞 Contact Us
+            </a>
             </div>
         </div>
     </section>
 
 
-    <!-- Step End -->
+
+
+
+
 
     <!-- Footer Section Begin -->
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="footer__about">
                         <div class="footer__logo">
-                            <a href="./index.html"><p>MetaMotor Campus</p></a>
+                            <img src="img/meta-logo.jpg" alt="MetaMotor Campus Logo" class="w-20 h-20">
                         </div>
                         <p>The customer is at the heart of our unique business model, which includes design.</p>
                         <a href="#"><img src="img/payment.png" alt=""></a>
                     </div>
                 </div>
-                <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
-                    <div class="footer__widget">
-                        <h6>Shopping</h6>
-                        <ul>
-                            <li><a href="#">Clothing Store</a></li>
-                            <li><a href="#">Trending Shoes</a></li>
-                            <li><a href="#">Accessories</a></li>
-                            <li><a href="#">Sale</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6">
-                    <div class="footer__widget">
-                        <h6>Shopping</h6>
-                        <ul>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Payment Methods</a></li>
-                            <li><a href="#">Delivary</a></li>
-                            <li><a href="#">Return & Exchanges</a></li>
-                        </ul>
-                    </div>
-                </div>
+                
                 <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-6">
                     <div class="footer__widget">
                         <h6>NewLetter</h6>
